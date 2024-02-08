@@ -77,7 +77,7 @@ header .wrapper{
 header nav ul li a{
 
     color: black;
-    
+
 }
 
 h1{
@@ -87,3 +87,48 @@ h1{
     font-weight: 700;
 
 }
+
+.hero{
+    background-image: url(../images/alpes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.hero .wrapper{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+}
+
+.boite{
+
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.boite h1{
+
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.boite h2{
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #2FCB48;
+
+}
+
