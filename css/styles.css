@@ -22,4 +22,68 @@ body{
 
     font-family: 'Roboto', sans-serif;
 
+    font-size: 16px;
+
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/*===========================
+
+Mise en page
+
+===========================*/
+
+header{
+
+background-color: white;
+padding-top: 20px;
+padding-bottom: 20px;
+
+}
+
+header .wrapper{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo{
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.menu{
+
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    font-family: 'Dosis', sans-serif;
+}
+
+header nav ul li a{
+
+    color: black;
+    
+}
+
+h1{
+
+    color: black;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+
 }
